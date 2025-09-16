@@ -57,7 +57,7 @@ export default function ConditionalLayoutWrapper({ children }) {
         <>
             {/* Header */}
             <header className="bg-white shadow-md h-16 px-6 fixed top-0 left-0 w-full z-20">
-                <div className="max-w-5xl mx-auto flex justify-between items-center h-full">
+                <div className="w-full px-20  mr-auto flex justify-between items-center h-full">
                     {/* Logo */}
                     <Link href="/">
                         <div className="text-2xl font-extrabold text-[#63ab45] tracking-tight cursor-pointer">
